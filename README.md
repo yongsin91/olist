@@ -9,6 +9,7 @@ The mentioned public dataset is available in [Kaggle](https://www.kaggle.com/dat
 3. 3_Linear_Regression : After feature engineering and data wrangling, we used multivariate linear regression for a more accurate representation of the features. 
 4. 4_Logistic_Regression : Multivariate logistic regression for finding the impact of **wait_time** and **delay_vs_expected** on very good/bad reviews. Finally provided recommendation and decide the increase in profit margin after the change.
 5. data, img, olist : Contains raw data, image for report and .py files of all the notebooks. 
+6. final analysis: The overall analysis after the causes has been identified. 
 
 # Problem Statement
 The task is to find out current business health, find out areas of concern that might have impacted olist current profit margin, and determine the increase in profit margin after adjustment.
@@ -33,4 +34,4 @@ IT_cost
 * The cumulated IT cost for IT department have amounted to 500,000 BRL since the birth of the marketplace until present day.
 
 # Conclusion
-Through brief analysis, by removing several most severe sellers ( sellers that actually causes loss instead of profit ), the profit margin of Olist can actually reach up to 63%
+Through brief analysis, by removing several most severe sellers ( sellers that actually causes loss instead of profit ), the profit margin of Olist can actually reach up to **63%**. Sellers that are causing loss instead of profit among the platform are identified, and management can decide to go for the next step as to reach out for helping them in further troubleshooting their business. Helping sellers to improve their business will be able to reduce the possible negative reviews, and thus improves customers perception of olists ecommerce platform as well. For the report on the full analysis, please refer to the **full_analysis** ipyb notebook.
