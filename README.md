@@ -5,6 +5,32 @@ The mentioned public dataset is available in [Kaggle](https://www.kaggle.com/dat
 
 # File Description
 1. 1_Setup : Initial data preparation and exploration. We'll be checking the features available in order to determine the suitable metrics for business health and customer satisfaction.
-2. 2_Statistical Inference : Starts to investigate into each dataset given to get an overview of current olist outlook. Translation of Brazilian Portugese to English is also available here as we try to check for any insights on the comments of the buyers. We'll be viewing all the relationships through graphs and finding the correlation between various features.
-3. 3_Linear_Regression :
-- Based on public data available, several initial analysis were done base on several aspects such as overall customer satisfaction & weekly transaction flow. Else, by data wrangling and feature engineering, we are able to further analyze the negative reviews and determine the overall profit/loss of the platform with respect to buyers' satisfaction.
+2. 2_Statistical Inference : Starts to investigate into each dataset given to get an overview of current olist outlook. We'll be viewing all the relationships through graphs and finding the correlation between various features.
+3. 3_Linear_Regression : After feature engineering and data wrangling, we used multivariate linear regression for a more accurate representation of the features. 
+4. 4_Logistic_Regression : Multivariate logistic regression for finding the impact of **wait_time** and **delay_vs_expected** on very good/bad reviews. Finally provided recommendation and decide the increase in profit margin after the change.
+5. data, img, olist : Contains raw data, image for report and .py files of all the notebooks. 
+
+# Problem Statement
+The task is to find out current business health, find out areas of concern that might have impacted olist current profit margin, and determine the increase in profit margin after adjustment.
+
+# Assumption
+**Revenue**
+* Olist takes a 10% cut on the product price (excl. freight) of each order delivered.
+* Olist charges 80 BRL by month per seller.
+
+**Cost**
+* Bad customer experience has business implications in the long run: low repeat rate, immediate customer support cost, refunds or unfavorable word of mouth communication. Therefore, we have an estimate measure of the monetary cost for each bad review:
+
+Review_cost
+* 1 star	100
+* 2 stars	50
+* 3 stars	40
+* 4 stars	0
+* 5 stars	0
+
+IT_cost
+* Olist’s total cumulated IT Costs to be proportional to the square-root of the total cumulated number of orders approved.
+* The cumulated IT cost for IT department have amounted to 500,000 BRL since the birth of the marketplace until present day.
+
+# Conclusion
+Through brief analysis, by removing several most severe sellers ( sellers that actually causes loss instead of profit ), the profit margin of Olist can actually reach up to 63%
