@@ -38,17 +38,18 @@ We first accounted IT Cost into each orders as well as the additional monetary c
 
 ![image](img/img1.png)  
 
-Maximum profit possible is by removing all underperforming sellers, which will help Olist to increase their profit by 67% (additional 444,549.21 BRLs). When further investigate the sellers by the number of months on Olist, we found that 81.5% of the sellers are actually new to the platform. They just joined Olist around 5 months or less. 
+As per graph above, the red line indicates the max profit possible by removing all underperforming sellers (a total of 1004 sellers), which will help Olist to increase their profit by 67% (additional 444,549.21 BRLs). When further investigate the sellers by the number of months on Olist, we found that 81.5% of the sellers are actually new to the platform. They just joined Olist around 5 months or less. 
 
 ![image](img/img2.png)  
 
-Finally, we took 5 months as a final cut off point to check the effect of removing those underperforming sellers that are more than 5 months on the platform. The result is a 54.62% additional profit (364621.19 BRLs).
+As per bar chart above, one can see that 55% of the sellers are on Olist platform less than 1 month, but they only accounts for 7% of total loss. Finally, we took 5 months (which accounts 81.5% of the sellers and 18% of total loss) as a final cut off point to check the effect of removing those underperforming sellers that are more than 5 months on the platform. The result is a 54.62% additional profit (364621.19 BRLs).
 
 ![image](img/img3.png)  
 
 
 # Conclusion
 Through brief analysis, by removing several most severe sellers ( sellers that actually causes loss instead of profit ), the profit margin of Olist can actually reach up to **54.62%**.  
-Under-performing sellers that are new to Olist platform (those who join for around 5 months or less) are also identified, and management can decide to go for the next step as to reach out for helping them in further troubleshooting their business. Helping sellers to improve their business will be able to reduce the possible negative reviews, and thus improves customers perception of olists ecommerce platform as well. For the report on the full analysis, please refer to the **full_analysis.ipyb** notebook.
+
+Under-performing sellers that are new to Olist platform (those who join for around 5 months or less) are also identified, and management can decide to go for the next step as to reach out for helping them in further troubleshooting their business. Helping sellers to improve their business will be able to reduce the possible negative reviews, and thus improves customers perception of olists ecommerce platform as well. For the calculations on the full analysis, please refer to the **full_analysis.ipyb** notebook.
 
 Moving forward, the bad reviews can be further analyzed by using NLP to determine why customers give bad and good reviews. The categorization of the bad reviews will help to identify what is the critical factor that will affect negative reviews for further identification and troubleshooting.
