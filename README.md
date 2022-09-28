@@ -22,27 +22,27 @@ The task is to find out current business health, find out areas of concern that 
 **Cost**
 * Bad customer experience has business implications in the long run: low repeat rate, immediate customer support cost, refunds or unfavorable word of mouth communication. Therefore, we have an estimate measure of the monetary cost for each bad review:
 
-Review_cost
+**Review_cost**
 * 1 star	100
 * 2 stars	50
 * 3 stars	40
 * 4 stars	0
 * 5 stars	0
 
-IT_cost
+**IT_cost**
 * Olist’s total cumulated IT Costs to be proportional to the square-root of the total cumulated number of orders approved.
 * The cumulated IT cost for IT department have amounted to 500,000 BRL since the birth of the marketplace until present day.
 
-Analysis
-We first accounted IT Cost into each orders as well as the additional monetary cost for each bad review to get the **net_profit** of each seller to date. We then sort then in an ascending order of their net_profit and calculate the max profit possible by removing under-performing sellers according to their net_profit.
+**Analysis**  
+* We first incorporated IT Cost into each orders as well as the additional monetary cost for each bad review to get the **net_profit** of each seller to date. We then sort then in an ascending order of their net_profit and calculate the max profit possible by removing under-performing sellers according to their net_profit.
 
 ![image](img/img1.png)  
 
-As per graph above, the red line indicates the max profit possible by removing all underperforming sellers (a total of 1004 sellers), which will help Olist to increase their profit by 67% (additional 444,549.21 BRLs). When further investigate the sellers by the number of months on Olist, we found that 81.5% of the sellers are actually new to the platform. They just joined Olist around 5 months or less. 
+* As per graph above, the red line indicates the max profit possible by removing all underperforming sellers (a total of 1004 sellers), which will help Olist to increase their profit by 67% (additional 444,549.21 BRLs). When further investigate the sellers by the number of months on Olist, we found that 81.5% of the sellers are actually new to the platform. They just joined Olist around 5 months or less. 
 
 ![image](img/img2.png)  
 
-As per bar chart above, one can see that 55% of the sellers are on Olist platform less than 1 month, but they only accounts for 7% of total loss. Finally, we took 5 months (which accounts 81.5% of the sellers and 18% of total loss) as a final cut off point to check the effect of removing those underperforming sellers that are more than 5 months on the platform. The result is a 54.62% additional profit (364621.19 BRLs).
+* As per bar chart above, one can see that 55% of the sellers are on Olist platform less than 1 month, but they only accounts for 7% of total loss. Finally, we took 5 months (which accounts 81.5% of the sellers and 18% of total loss) as a final cut off point to check the effect of removing those underperforming sellers that are more than 5 months on the platform. The result is a 54.62% additional profit (364621.19 BRLs).
 
 ![image](img/img3.png)  
 
