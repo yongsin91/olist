@@ -48,8 +48,8 @@ The task is to find out current business health, find out areas of concern that 
 
 
 # Conclusion
-Through brief analysis, by removing several most severe sellers ( sellers that actually causes loss instead of profit ), the profit margin of Olist can actually reach up to **54.62%**.  
+* Through brief analysis, by removing several most severe sellers ( sellers that actually causes loss instead of profit ), the profit margin of Olist can actually reach up to **54.62%**.  
 
-Under-performing sellers that are new to Olist platform (those who join for around 5 months or less) are also identified, and management can decide to go for the next step as to reach out for helping them in further troubleshooting their business. Helping sellers to improve their business will be able to reduce the possible negative reviews, and thus improves customers perception of olists ecommerce platform as well. For the calculations on the full analysis, please refer to the **full_analysis.ipyb** notebook.
+* Under-performing sellers that are new to Olist platform (those who join for around 5 months or less) are also identified (81.5% among of all under-performing sellers and accounts 18% of all profit loss). Management can decide to go for the next step as to for example reach out and help them in further troubleshooting their business. Helping sellers to improve their business will be able to reduce the possible negative reviews, and thus improves customers perception of olists ecommerce platform as well. For the calculations on the full analysis, please refer to the **full_analysis.ipyb** notebook.
 
-Moving forward, the bad reviews can be further analyzed by using NLP to determine why customers give bad and good reviews. The categorization of the bad reviews will help to identify what is the critical factor that will affect negative reviews for further identification and troubleshooting.
+* Moving forward, the bad reviews can be further analyzed by using NLP to determine why customers give bad and good reviews. The categorization of the bad reviews will help to identify what is the critical factor that will affect negative reviews for further identification and troubleshooting.
