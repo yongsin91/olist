@@ -42,7 +42,7 @@ The task is to find out current business health, find out areas of concern that 
 
 ![image](img/img2.png)  
 
-* As per bar chart above, one can see that 55% of the sellers are on Olist platform less than 1 month, but they only accounts for 7% of total loss. Finally, we took 5 months (which accounts 81.5% of the sellers and 18% of total loss) as a final cut off point to check the effect of removing those underperforming sellers that are more than 5 months on the platform. The result is a 54.62% additional profit (364621.19 BRLs).
+* As per bar chart above, one can see that more than half of the under-performing sellers (55%) are on Olist platform less than 1 month, and they only accounts for 7% of total loss. Finally, we took 5 months (which accounts 81.5% of the under-performing sellers and 18% of total loss) as a final cut off point to check the effect of removing those underperforming sellers that are more than 5 months on the platform. The result is a 54.62% additional profit (364621.19 BRLs).
 
 ![image](img/img3.png)  
 
