@@ -38,20 +38,23 @@ The task is to find out current business health, find out areas of concern that 
 
 ![image](img/img1.png)  
 
-* As per graph above, the red line indicates the max profit possible by removing all underperforming sellers (a total of 1004 sellers), which will help Olist to increase their profit by 67% (additional 444,549.21 BRLs). When further investigate the sellers by the number of months on Olist, we found that 81.5% of the sellers are actually new to the platform. They just joined Olist around 5 months or less. 
+* As per graph above, the red line indicates the max profit possible by removing all underperforming sellers (a total of 1004 sellers), which will help Olist to increase their profit by 67% (additional 444,549.21 BRLs). When further investigate the sellers by the number of months on Olist, we found that **81.5% of the sellers are actually new to the platform**. They just joined Olist less than 6 months. 
 
 ![image](img/img2.png)  
 
-* As per bar chart above, one can see that more than half of the under-performing sellers (55%) are on Olist platform less than 1 month, and they only accounts for 7% of total loss. Finally, we took 5 months (which accounts 81.5% of the under-performing sellers and 18% of total loss) as a final cut off point to check the effect of removing those underperforming sellers that are more than 5 months on the platform. The result is a 54.62% additional profit (364621.19 BRLs).
+* As per bar chart above, one can see that the graph is heavily right skewed. More than half of the under-performing sellers (55%) are on Olist platform less than 1 month, and they only accounts for 7% of total loss. Finally, we took 5 months (which accounts 81.5% of the under-performing sellers and 18% of total loss) as a final cut off point to check the effect of removing those underperforming sellers that are more than 5 months on the platform. **The result is a 54.62% additional profit (364621.19 BRLs)**.
 
 ![image](img/img3.png)  
 
+* As shown in **initial_analysis.ipynb**, we also investigate the correlation of the reviews with several features such as **distance between seller & customers**, **delay vs expected timing**, and many. We separate the datas into each review categories and plotting distribution plots of each features to compare and check if there's any obvious difference. Despite our hypothesis, we see no significant correlation shown in those plots. **Data distribution of the features is similar when comparing those of 1 star reviews with 5 star reviews.**
 
 # Suggestion & Recommendation
-* Through brief analysis, by removing several most severe sellers (sellers that actually causes loss instead of profit), the profit margin of Olist can actually reach up to **54.62%**.  
+* Through brief analysis, by removing several most severe sellers (sellers that actually causes loss instead of profit), the **profit margin of Olist can actually reach up to 54.62%**.  
 
-* Under-performing sellers that are new to Olist platform (those who join less than 6 months) are also identified (81.5% among of all under-performing sellers and accounts 18% of all profit loss). Management can decide to go for the next step as to for example reach out and help them in further troubleshooting their business. Helping sellers to improve their business will be able to reduce the possible negative reviews, and thus improves customers perception of olists ecommerce platform as well. For the calculations on the full analysis, please refer to the **full_analysis.ipyb** notebook.
+* **Under-performing sellers that are new to Olist platform (those who join less than 6 months) are also found to be 81.5% among of all under-performing sellers and accounts 18% of all profit loss**. Management can decide to go for the next step as to for example reach out and help them in further troubleshooting their business. Helping sellers to improve their business will be able to reduce the possible negative reviews, and thus improves customers perception of olists ecommerce platform as well. For the calculations on the full analysis, please refer to the **full_analysis.ipyb** notebook.
 
-* Further investigation shows that almost half of new sellers (those who join less than 6 months), 47% of them are under-performing when just joining the platform. We suggest that Olist could provide some form of guidance or setup training for newcomers to shorten the time needed for newcomers to gain traction on the Olist platform.
+* Further investigation shows that **almost half of new sellers (those who join less than 6 months), **47%** of them are under-performing when just joining the platform.** We suggest that Olist could provide some form of guidance or setup training for newcomers to shorten the time needed for newcomers to gain traction on the Olist platform.
 
 * Moving forward, the bad reviews can be further analyzed by using NLP to determine why customers give bad and good reviews. The categorization of the bad reviews will help to identify what is the critical factor that will affect negative reviews for further identification and troubleshooting.
+
+* Else in **initial_analysis.ipynb**, we also found out among the late delivery of items (those with >10% lateness), there are 3 different periods of time whereby items are consistently late delivered within those timeframe. They do not shows any significant correlation to any holidays, events or major news in Brazil of that time period. Further in-depth analysis is required to check if the issues are problems that could be identified and that Olist could work on.
